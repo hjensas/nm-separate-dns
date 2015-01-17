@@ -26,7 +26,7 @@ server should (mostly) not require additional dependencies.
 1. Copy the `90-update-resolv.conf` script to
    `/etc/NetworkManager/dispatcher.d/`.
 
-2. Create the `/etc/dnsmasq.d/localhost.conf with the following content
+2. Create the `/etc/dnsmasq.d/localhost.conf` with the following content
 
    ```
    no-resolv
